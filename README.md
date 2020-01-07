@@ -51,7 +51,7 @@ To remove a song, simply delete it from the list.
 8) Import your new file using a title of your choice. Copy the import format already in place:
 
   <p align="center">
-    <img src="./instructions/import-image.png" alt="Import image" />
+    <img src="./instructions/import-photo.png" alt="Import image" />
   </p>
   
   <p align=center>*Note: Don't forget the file extension or the semi-colon at the end of the statement.</p>
