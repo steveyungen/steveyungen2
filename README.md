@@ -55,14 +55,14 @@ To remove a song, simply delete it from the list.
 7) Click the Pencil icon in the top right corner (Edit this Page)
 8) Import your new file using a title of your choice. Copy the import format already in place:
 
-  #### import SteveSurfs from "../images/steve/steve-surfs.jpg";
+    ![](./instructions/import-image.png)
   
   *Note: Don't forget the file extension or the semi-colon at the end of the statement.
   
 #### Add Photo to Gallery Display
 9) Add photo somewhere in the galleryImages object, mimicking the format already in place. The order of this list is the order photos appear on the website.
 
-  ![]("./instructions/add-to-gallery.jpg")
+  ![](./instructions/add-to-gallery.png)
 
 10) Click Commit Changes
 
