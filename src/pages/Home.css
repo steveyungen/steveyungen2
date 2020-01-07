@@ -1,0 +1,99 @@
+@import "../styles/animations.css";
+
+body {
+  overflow-x: hidden !important;
+}
+
+.description {
+  color: #303030;
+  font-family: "Roboto", "sans-serif";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300 !important;
+  letter-spacing: 0.02em;
+  line-height: 28px;
+}
+
+.fadeIn-fast {
+  -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 0.5s; /* Firefox < 16 */
+  -ms-animation: fadein 0.5s; /* Internet Explorer */
+  -o-animation: fadein 0.5s; /* Opera < 12.1 */
+  animation: fadein 0.5s;
+}
+
+.fadeIn-3 {
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+
+.contact-container,
+.events-container,
+.gallery-container,
+.home-container,
+.music-container {
+  font-family: "Cabin", "sans-serif";
+  padding: 40px 60px !important;
+
+  -webkit-animation: fadein 0.25s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 0.25s; /* Firefox < 16 */
+  -ms-animation: fadein 0.25s; /* Internet Explorer */
+  -o-animation: fadein 0.25s; /* Opera < 12.1 */
+  animation: fadein 0.25s;
+}
+
+hr {
+  background: rgb(212, 212, 212);
+}
+
+.large-title {
+  font-size: 44px !important;
+}
+
+.row-style {
+  height: auto;
+  position: relative;
+}
+
+.spacer {
+  height: 68px;
+}
+
+.spacer-small {
+  height: 30px;
+}
+
+.tipJar-container {
+  padding: 10px 20px;
+}
+
+.title {
+  font-family: "Cabin", "sans-serif";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 1em;
+  white-space: normal;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+@media only screen and (max-width: 768px) {
+  .home-container,
+  .gallery-container,
+  .tipJar-container {
+    padding: 35px 20px !important;
+  }
+
+  .spacer {
+    height: 38px;
+  }
+
+  .spacer-small {
+    height: 3px;
+  }
+}
