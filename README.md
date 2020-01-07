@@ -30,7 +30,9 @@ Intro: You'll need the slug to the song on SoundCloud. Get this by opening the t
 4) Add a new line to the object titled "hawaiian"
 5) Add the new song *exactly* in this format:
 
-  #### "Why, Kiki?": "why-kiki",
+  #### "[TITLE]": "[SLUG]",
+  
+  ![](./instructions/add-song.png)
   
   *Note: Don't forget the quotation marks or the comma at the end.*
 
