@@ -36,10 +36,10 @@ Intro: You'll need the slug to the song on SoundCloud. Get this by opening the t
 To remove a song, simply delete it from the list.
 
 ## How to add photos:
-*Example: Adding a new picture called "Steve Surfs Up Some Music" to the Gallery page.
+*Example: Adding a new picture called "Steve Music" to the Gallery page.
 
 #### Upload Photo
-1) Save the image to your computer using a title such as "steve-surfs-up-music.jpg".
+1) Save the image to your computer using a title such as "steve-music.jpg".
 2) Go to src -> images -> steve
 3) Drag and drop image into folder
 4) Click Commit Changes
@@ -51,7 +51,7 @@ To remove a song, simply delete it from the list.
 8) Import your new file using a title of your choice. Copy the import format already in place:
 
   <p align="center">
-    <img src="./instructions/import-photo.png" alt="Import image" />
+    <img src="./instructions/import-image2.png" alt="Import image" />
   </p>
   
   <p align=center>*Note: Don't forget the file extension or the semi-colon at the end of the statement.</p>
@@ -60,7 +60,7 @@ To remove a song, simply delete it from the list.
 9) Add photo somewhere in the galleryImages object, mimicking the format already in place. The order of this list is the order photos appear on the website.
 
   <p align="center">
-    <img src="./instructions/add-to-gallery.png" alt="Add to gallery" />
+    <img src="./instructions/add-image2.png" alt="Add to gallery" />
   </p>
 
 10) Click Commit Changes
