@@ -1,11 +1,15 @@
 # Steve Yungen Music
 https://steveyungen.herokuapp.com
 
+<hr />
+
 Here are a few ways that you can update the text, photos, songs, and videos on the website. Just be careful not to delete or edit any of the other code outside of these areas or it could cause issues. 
 
 It'll usually take 3-5 minutes for changes to show up on the website. 
 
-### How to update text:
+<hr />
+
+## How to update text:
 *Example: Updating About Steve text on Home Page.
 
 1) Go to src -> pages
