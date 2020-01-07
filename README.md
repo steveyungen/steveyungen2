@@ -1,8 +1,6 @@
 # Steve Yungen Music
 https://steveyungen.herokuapp.com
 
-<hr />
-
 Here are a few ways that you can update the text, photos, songs, and videos on the website. Just be careful not to delete or edit any of the other code outside of these areas or it could cause issues. 
 
 It'll usually take 3-5 minutes for changes to show up on the website. 
