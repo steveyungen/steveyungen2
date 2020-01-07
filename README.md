@@ -62,22 +62,7 @@ To remove a song, simply delete it from the list.
 #### Add Photo to Gallery Display
 9) Add photo somewhere in the galleryImages object, mimicking the format already in place. The order of this list is the order photos appear on the website.
 
-  export const galleryImages = {
-    zeroAndSlicks: {
-      image: ZeroAndSlicks,
-      title: "Zero and the Slicks",
-      description: "1973",
-    },
-    
-    steveSurfs: {
-      image: SteveSurfs,
-      title: "Steve Surfs Up Some Music",
-      description: "2020, Taiwan",
-    },
-    
-    ...
-    
-};
+  ![]("./instructions/add-to-gallery.jpg")
 
 10) Click Commit Changes
 
