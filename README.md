@@ -26,8 +26,9 @@ Intro: You'll need the slug to the song on SoundCloud. Get this by opening the t
 4) Add a new line to the object titled "hawaiian"
 5) Add the new song *exactly* in this format: "[TITLE]": "[SLUG]"
 
-  ![](./instructions/add-song.png)
-  
+  <p align="center">
+    <img src="./instructions/add-song.png" alt="Add song" />
+  </p>
   <p align=center>*Note: Don't forget the quotation marks or the comma at the end.*</p>
 
 6) Click Commit Changes at the bottom of the page
@@ -49,14 +50,18 @@ To remove a song, simply delete it from the list.
 7) Click the Pencil icon in the top right corner (Edit this Page)
 8) Import your new file using a title of your choice. Copy the import format already in place:
 
-    ![](./instructions/import-image.png)
+  <p align="center">
+    <img src="./instructions/import-image.png" alt="Import image" />
+  </p>
   
   <p align=center>*Note: Don't forget the file extension or the semi-colon at the end of the statement.</p>
   
 #### Add Photo to Gallery Display
 9) Add photo somewhere in the galleryImages object, mimicking the format already in place. The order of this list is the order photos appear on the website.
 
-  ![](./instructions/add-to-gallery.png)
+  <p align="center">
+    <img src="./instructions/add-to-gallery.png" alt="Add to gallery" />
+  </p>
 
 10) Click Commit Changes
 
