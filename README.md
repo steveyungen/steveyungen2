@@ -5,9 +5,7 @@ Here are a few ways that you can update the text, photos, songs, and videos on t
 
 It'll usually take 3-5 minutes for changes to show up on the website. 
 
-<hr />
-
-### How to update text:
+## How to update text:
 *Example: Updating About Steve text on Home Page.
 
 1) Go to src -> pages
@@ -17,9 +15,7 @@ It'll usually take 3-5 minutes for changes to show up on the website.
 5) Edit it
 6) Click Commit Changes at the bottom of the page
 
-<hr />
-
-### How to add or remove songs:
+## How to add or remove songs:
 *Example: Adding a new Hawaiian song called "Why, Kiki?" to the Music page. Song is hosted on SoundCloud. 
 
 Intro: You'll need the slug to the song on SoundCloud. Get this by opening the track in SoundCloud. The slug is the part at the end of the url, as shown here: "https://soundcloud.com/steve-yungen/[this-is-the-slug]". It'll be all lowercase and hyphenated. You'll see all the other examples of slugs in the songs.js file. 
@@ -28,21 +24,17 @@ Intro: You'll need the slug to the song on SoundCloud. Get this by opening the t
 2) Open songs.js
 3) Click the Pencil icon in the top right corner (Edit this Page)
 4) Add a new line to the object titled "hawaiian"
-5) Add the new song *exactly* in this format:
+5) Add the new song *exactly* in this format: "[TITLE]": "[SLUG]"
 
-  #### "[TITLE]": "[SLUG]",
-  
   ![](./instructions/add-song.png)
   
-  *Note: Don't forget the quotation marks or the comma at the end.*
+  <p align=center>*Note: Don't forget the quotation marks or the comma at the end.*</p>
 
 6) Click Commit Changes at the bottom of the page
 
 To remove a song, simply delete it from the list.
 
-<hr />
-
-### How to add photos:
+## How to add photos:
 *Example: Adding a new picture called "Steve Surfs Up Some Music" to the Gallery page.
 
 #### Upload Photo
@@ -59,7 +51,7 @@ To remove a song, simply delete it from the list.
 
     ![](./instructions/import-image.png)
   
-  *Note: Don't forget the file extension or the semi-colon at the end of the statement.
+  <p align=center>*Note: Don't forget the file extension or the semi-colon at the end of the statement.</p>
   
 #### Add Photo to Gallery Display
 9) Add photo somewhere in the galleryImages object, mimicking the format already in place. The order of this list is the order photos appear on the website.
@@ -68,7 +60,7 @@ To remove a song, simply delete it from the list.
 
 10) Click Commit Changes
 
-*Note: Be sure that you added commas at the end of each line and that there are no typos.
+<p align=center>*Note: Be sure that you added commas at the end of each line and that there are no typos.</p>
     
 
 
