@@ -7,7 +7,7 @@ It'll usually take 3-5 minutes for changes to show up on the website.
 
 <hr />
 
-## How to update text:
+### How to update text:
 *Example: Updating About Steve text on Home Page.
 
 1) Go to src -> pages
@@ -19,7 +19,7 @@ It'll usually take 3-5 minutes for changes to show up on the website.
 
 <hr />
 
-## How to add or remove songs:
+### How to add or remove songs:
 *Example: Adding a new Hawaiian song called "Why, Kiki?" to the Music page. Song is hosted on SoundCloud. 
 
 Intro: You'll need the slug to the song on SoundCloud. Get this by opening the track in SoundCloud. The slug is the part at the end of the url, as shown here: "https://soundcloud.com/steve-yungen/[this-is-the-slug]". It'll be all lowercase and hyphenated. You'll see all the other examples of slugs in the songs.js file. 
@@ -30,7 +30,7 @@ Intro: You'll need the slug to the song on SoundCloud. Get this by opening the t
 4) Add a new line to the object titled "hawaiian"
 5) Add the new song *exactly* in this format:
 
-  ### "Why, Kiki?": "why-kiki",
+  #### "Why, Kiki?": "why-kiki",
   
   *Note: Don't forget the quotation marks or the comma at the end.*
 
@@ -40,7 +40,7 @@ To remove a song, simply delete it from the list.
 
 <hr />
 
-## How to add photos:
+### How to add photos:
 *Example: Adding a new picture called "Steve Surfs Up Some Music" to the Gallery page.
 
 #### Upload Photo
@@ -55,7 +55,7 @@ To remove a song, simply delete it from the list.
 7) Click the Pencil icon in the top right corner (Edit this Page)
 8) Import your new file using a title of your choice. Copy the import format already in place:
 
-  ### import SteveSurfs from "../images/steve/steve-surfs.jpg";
+  #### import SteveSurfs from "../images/steve/steve-surfs.jpg";
   
   *Note: Don't forget the file extension or the semi-colon at the end of the statement.
   
