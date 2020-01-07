@@ -61,6 +61,8 @@ To remove a song, simply delete it from the list.
 
   <p align="center">
     <img src="./instructions/add-image2.png" alt="Add to gallery" />
+    The name "steveMusic" is artibrary. Name it whatever you think makes sense. 
+    Make sure the image matches the name of the file you imported, in this case, "SteveMusic".
   </p>
 
 10) Click Commit Changes
