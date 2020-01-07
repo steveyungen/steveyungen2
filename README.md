@@ -1,61 +1,43 @@
-<p align="center">
-  <img src="./src/images/conway.png" alt="logo" />
-</p>
+# Steve Yungen Music
+https://steveyungen.herokuapp.com
 
-# Conway's Game of Life
-**by Curtis Yungen**
+Here are a few ways that you can update the text, photos, songs, and videos on the website. Just be careful not to delete or edit any of the other code outside of these areas or it could cause issues. 
 
-August 2019
+It'll usually take 3-5 minutes for changes to show up on the website. 
 
-Conway's Game of Life is a simulation based on an initial state and four simple rules governing how this state evolves:
+### How to update text:
+*Example: Updating About Steve text on Home Page.
 
-* Any live cell with fewer than two live neighbours dies, as if by underpopulation.
-* Any live cell with two or three live neighbours lives on to the next generation.
-* Any live cell with more than three live neighbours dies, as if by overpopulation.
-* Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
+1) Go to src -> pages
+2) Open Home.js
+3) Click the Pencil icon in the top right corner (Edit this Page)
+4) Scroll down until you see the text
+5) Edit it
+6) Click Commit Changes at the bottom of the page
 
-Read more here: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+## How to add or remove songs:
+*Example: Adding a new Hawaiian song called "Why Key Ki?" to the list. Song is hosted on SoundCloud. 
 
-In this project, a user can draw a particular pattern on a 25 x 25 grid and click Start to commence the simulation. The pattern then mutates based on the four aforementioned rules, forming new patterns and continuing until the simulation reaches a static or oscillating state.
+Intro: You'll need the slug to the song on SoundCloud. Get this by opening the track in SoundCloud. The slug is the part at the end of the url, after "https://soundcloud.com/steve-yungen/[SLUG]". It'll be all lowercase and hyphenated. You'll see all the other examples of slugs in the songs.js file. 
 
-Check out the project here: https://conway-cjy.herokuapp.com.
+1) Go to src -> content 
+2) Open songs.js
+3) Click the Pencil icon in the top right corner (Edit this Page)
+4) Add a new line to the object titled "hawaiian"
+5) Add the new song *exactly* in this format:
 
-<hr/>
+  #### "Why Key Ki?": "why-key-ki",
+  
+*Note: Don't forget the quotation marks or the comma at the end.*
 
-### Technologies
-1) Node.js
-2) Express.js
-3) ReactJS
+6) Click Commit Changes at the bottom of the page
 
-### NPM Dependencies
-1) express
-2) react-dom
-3) react-responsive-modal
-4) react-router
 
-<hr/>
+To remove a song, simply delete it from the list.
 
-### Download Instructions
+## How to add photos:
 
-*Ensure that you have installed a Code Editor such as Visual Studio Code as well as Node.js.
-Installation instructions for Node.js can be found here: https://nodejs.org/en/download/*
+Go to 
 
-1) Visit https://github.com/curtisyungen/conway
-2) Click on the green button labeled Clone or download
-3) Select Download ZIP
-4) Open the ZIP file and extract its contents to the desired location on your computer
-5) Open Visual Studio Code or the editor of your choice
-6) Open a new terminal in your code editor
-7) Install all dependencies by running the command "npm install"
-8) Start the program by typing the command "npm start" in your terminal
-9) The program will open locally in your browser
 
-<hr/>
-
-### Screenshots
-
-![](./src/images/screenshot1.png)
-<br/>
-![](./src/images/screenshot2.png)
-<br/>
 
