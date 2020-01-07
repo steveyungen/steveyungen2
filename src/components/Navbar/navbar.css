@@ -1,0 +1,109 @@
+.navbar-toggler {
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.navbar {
+  background-repeat: no-repeat;
+  height: 250px;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+  position: relative;
+}
+
+.navbar-brand {
+  left: 50%;
+  margin: auto;
+  max-width: 100%;
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%);
+  white-space: normal;
+}
+
+#navbarNav {
+  position: absolute;
+  right: 50px;
+  top: 5px;
+}
+
+.nav-link,
+.navbar-brand {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.nav-link:hover {
+  color: #252525 !important;
+}
+
+.steveyungen {
+  color: white !important;
+  font-family: "Neucha", "sans-serif"; /* Neucha, Schoolbell, Delius, Handlee */
+  font-size: 54px;
+  letter-spacing: 3px;
+}
+
+.welcomeNote {
+  font-family: "Signika", "sans-serif";
+  font-size: 18px;
+  margin: auto;
+  max-width: 75%;
+  text-align: center;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar {
+    height: 350px;
+  }
+
+  .navbar-brand {
+    top: 31px;
+  }
+
+  .welcomeNote {
+    max-width: 100%;
+  }
+
+  #navbarNav {
+    padding: 0.75rem;
+    right: 20px;
+    top: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-brand {
+    top: 50px;
+  }
+
+  .steveyungen {
+    font-size: 38px;
+  }
+
+  .welcomeNote {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .welcomeNote {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .navbar-brand {
+    font-size: 16px;
+    top: 5px;
+  }
+
+  .steveyungen {
+    font-size: 16px;
+  }
+}

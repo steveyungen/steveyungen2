@@ -1,0 +1,57 @@
+.color-black {
+  color: black !important;
+}
+
+.color-white {
+  color: white !important;
+}
+
+.donateBtn {
+  font-size: 14px;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  width: auto;
+}
+
+.donateBtn:hover {
+  color: black !important;
+}
+
+.donateBtn a:hover {
+  color: black !important;
+  text-decoration: none;
+}
+
+.db-footer {
+  position: absolute;
+  right: 50px;
+  top: 15px;
+}
+
+.db-jumbotron {
+  bottom: 15px;
+  position: absolute;
+  right: 50px;
+}
+
+.patreonBtn {
+  background: #f96854;
+}
+
+.payPalBtn {
+  background: rgb(236, 179, 35);
+}
+
+.patreonBtn,
+.payPalBtn {
+  border: 0px;
+  width: 150px;
+}
+
+@media only screen and (max-width: 991px) {
+  .db-jumbotron,
+  .db-footer {
+    margin-right: 1rem;
+    right: 20px;
+  }
+}

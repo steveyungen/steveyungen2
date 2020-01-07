@@ -1,0 +1,36 @@
+.caption {
+  color: #303030;
+  font-size: 14px;
+  margin: 5px;
+  padding: 0px;
+}
+
+.modalScroll {
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Roboto", "sans-serif";
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+.modalScroll:hover {
+  color: rgb(30, 30, 30);
+}
+
+.modalScrollBtns {
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.modal-true {
+  cursor: pointer;
+}
+
+.photo,
+.photo:hover {
+  color: black;
+  text-decoration: none;
+  word-wrap: break-word;
+}
