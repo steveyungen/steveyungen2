@@ -95,13 +95,13 @@ I've left a fifth row with two empty Video components. You can paste your YouTub
 
 ## How to Update Events:
 
-#### If Event has a poster, upload it:
+#### Upload Event poster/image:
 1) Save the image to your computer using a title such as "steve-music.jpg".
 2) Go to src -> images -> events
 3) Drag and drop image into folder
 4) Click Commit Changes
 
-#### If Event has a poster, import it:
+#### Import Event poster/image:
 5) Go to src -> pages
 6) Open Events.js
 7) Click the Pencil icon in the top right corner (Edit this Page)
