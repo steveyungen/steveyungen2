@@ -14,7 +14,9 @@ class Gallery extends Component {
   render() {
     return (
       <div className="container gallery-container">
+      
         {/* PHOTOS */}
+      
         <div className="row row-style justify-content-center text-center">
           <p className="title large-title">PHOTOS</p>
           <p className="description">
@@ -40,13 +42,14 @@ class Gallery extends Component {
         </div>
 
         {/* VIDEOS */}
+
         <div className="row row-style justify-content-center text-center mt-5 mb-4">
           <div className="spacer" />
           <p className="title large-title">VIDEOS</p>
           <div className="spacer" />
         </div>
 
-        {/* ROW 1 */}
+        {/* VIDEO ROW 1 */}
         <div className="row video-row justify-content-center text-center">
           <div className="col-xs-8 col-md-6">
             <Video video={"https://www.youtube.com/embed/xEYHfnU0Z9o?rel=0"} />
@@ -56,7 +59,7 @@ class Gallery extends Component {
           </div>
         </div>
 
-        {/* ROW 2 */}
+        {/* VIDEO ROW 2 */}
         <div className="row video-row justify-content-center text-center">
           <div className="col-xs-8 col-md-6">
             <Video video={"https://www.youtube.com/embed/P3s9dW91KB4"} />
@@ -66,7 +69,7 @@ class Gallery extends Component {
           </div>
         </div>
 
-        {/* ROW 3 */}
+        {/* VIDEO ROW 3 */}
         <div className="row video-row justify-content-center text-center">
           <div className="col-xs-8 col-md-6">
             <Video video={"https://www.youtube.com/embed/P4to7YpbM4k"} />
@@ -76,13 +79,23 @@ class Gallery extends Component {
           </div>
         </div>
 
-        {/* ROW 4 */}
+        {/* VIDEO ROW 4 */}
         <div className="row video-row justify-content-center text-center">
           <div className="col-xs-8 col-md-6">
             <Video video={"https://www.youtube.com/embed/dFu8YgKDRJY"} />
           </div>
           <div className="col-xs-8 col-md-6">
             <Video video={"https://www.youtube.com/embed/vmlbEtXN-DQ"} />
+          </div>
+        </div>
+
+        {/* VIDEO ROW 5 */}
+        <div className="row video-row justify-content-center text-center">
+          <div className="col-xs-8 col-md-6">
+            //<Video video={"POST VIDEO LINK HERE"} />
+          </div>
+          <div className="col-xs-8 col-md-6">
+            //<Video video={"POST VIDEO LINK HERE"} />
           </div>
         </div>
       </div>
