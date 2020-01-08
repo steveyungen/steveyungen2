@@ -70,7 +70,27 @@ Make sure the file assigned to image matches the name of the file you imported, 
 
 <p align=center>*Note: Be sure that you added commas at the end of each line and that there are no typos.</p>
     
+## Add or Remove a Video on Gallery Page
 
+1) Go to src -> pages
+2) Open Gallery.js
+3) Click the Pencil icon in the top right corner (Edit this Page)
+4) Scroll down until you see the video section
 
+#### Replace a Video:
+If you want to replace a video, simply change the URL of the replaced video to the new video. Make sure it's the /embed/ URL that you get from YouTube's Share/Embed function.
 
+  <p align="center">
+    <img src="./instructions/replace-video.png" alt="Replace video" />
+  </p>
+
+#### Add a Video:
+As you'll see, I have the videos grouped into rows of two. That means there are eight videos (due to 2 * 4). It'd be nice to maintain an even number of videos, two per row, for display purposes. 
+
+I've left a fifth row with two empty Video components. You can paste your YouTube /embed/ URLs between the quotation marks as indicated. Then, remove the {*/ /*} from the line to uncomment it. 
+
+  <p align="center">
+    <img src="./instructions/add-video.png" alt="Add video" />
+  </p>
+  
 
