@@ -21,3 +21,8 @@
   margin: 15px auto;
   max-width: 500px;
 }
+
+.small-text {
+  font-size: 12px;
+  margin-top: -10px;
+}
