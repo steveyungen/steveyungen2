@@ -92,10 +92,10 @@ class Gallery extends Component {
         {/* VIDEO ROW 5 */}
         <div className="row video-row justify-content-center text-center">
           <div className="col-xs-8 col-md-6">
-            {/* <Video video={"POST VIDEO LINK HERE"} */}
+            {/* <Video video={"POST VIDEO LINK HERE"} /> */}
           </div>
           <div className="col-xs-8 col-md-6">
-            {/* <Video video={"POST VIDEO LINK HERE"} */}
+            {/* <Video video={"POST VIDEO LINK HERE"} /> */}
           </div>
         </div>
       </div>
