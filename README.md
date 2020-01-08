@@ -96,7 +96,7 @@ I've left a fifth row with two empty Video components. You can paste your YouTub
 ## How to Update Events:
 
 #### Upload Event poster/image:
-1) Save the image to your computer using a title such as "steve-music.jpg".
+1) Save the image to your computer using a title such as "new-event.jpg".
 2) Go to src -> images -> events
 3) Drag and drop image into folder
 4) Click Commit Changes
