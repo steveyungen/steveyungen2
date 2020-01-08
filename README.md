@@ -15,7 +15,7 @@ It'll usually take 3-5 minutes for changes to show up on the website.
 5) Edit it
 6) Click Commit Changes at the bottom of the page
 
-## How to add or remove songs:
+## Add or Remove Songs from the Music Page:
 *Example: Adding a new Hawaiian song called "Why, Kiki?" to the Music page. Song is hosted on SoundCloud.*
 
 Intro: You'll need the slug to the song on SoundCloud. Get this by opening the track in SoundCloud. The slug is the part at the end of the url, as shown here: "https://soundcloud.com/steve-yungen/[this-is-the-slug]". It'll be all lowercase and hyphenated. You'll see all the other examples of slugs in the songs.js file. 
@@ -35,7 +35,7 @@ Intro: You'll need the slug to the song on SoundCloud. Get this by opening the t
 
 To remove a song, simply delete it from the list.
 
-## How to add photos:
+## Add or Remove a Photo on the Gallery Page:
 *Example: Adding a new picture called "Steve Music" to the Gallery page.*
 
 #### Upload Photo
@@ -56,7 +56,7 @@ To remove a song, simply delete it from the list.
   
   <p align=center>*Note: Don't forget the file extension or the semi-colon at the end of the statement.</p>
   
-#### Add Photo to Gallery Display
+#### Add Photo to Gallery display object
 9) Add photo somewhere in the galleryImages object, mimicking the format already in place. The order of this list is the order photos appear on the website.
 
   <p align="center">
