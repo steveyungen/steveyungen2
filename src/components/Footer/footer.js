@@ -11,7 +11,8 @@ class Footer extends Component {
           <SocialIcons />
           <ScrollTop />
           <div className="copyright">
-            Copyright &copy; 2020 Steve Yungen. All rights reserved.
+            <p>Home page cover photo taken by Karen Irmscher.</p>
+            <p>Copyright &copy; 2020 Steve Yungen. All rights reserved.</p>
           </div>
         </div>
       </div>
