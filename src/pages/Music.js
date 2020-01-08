@@ -67,9 +67,9 @@ class Music extends Component {
     let scrollY = window.scrollY;
     let diffY = scrollY - audio.y;
 
-    if (screenWidth > 768) {
+    if (screenWidth >= 768) {
       mobilize = false;
-    } else if (screenWidth <= 768 && diffY > 750) {
+    } else if (screenWidth < 768 && diffY > 750) {
       mobilize = true;
     } else {
       mobilize = false;
