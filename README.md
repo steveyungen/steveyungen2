@@ -6,7 +6,7 @@ Here are a few ways that you can update the text, photos, songs, and videos on t
 It'll usually take 3-5 minutes for changes to show up on the website. 
 
 ## How to update text:
-*Example: Updating About Steve text on Home Page.
+*Example: Updating About Steve text on Home Page.*
 
 1) Go to src -> pages
 2) Open Home.js
@@ -16,7 +16,7 @@ It'll usually take 3-5 minutes for changes to show up on the website.
 6) Click Commit Changes at the bottom of the page
 
 ## How to add or remove songs:
-*Example: Adding a new Hawaiian song called "Why, Kiki?" to the Music page. Song is hosted on SoundCloud. 
+*Example: Adding a new Hawaiian song called "Why, Kiki?" to the Music page. Song is hosted on SoundCloud.*
 
 Intro: You'll need the slug to the song on SoundCloud. Get this by opening the track in SoundCloud. The slug is the part at the end of the url, as shown here: "https://soundcloud.com/steve-yungen/[this-is-the-slug]". It'll be all lowercase and hyphenated. You'll see all the other examples of slugs in the songs.js file. 
 
@@ -36,7 +36,7 @@ Intro: You'll need the slug to the song on SoundCloud. Get this by opening the t
 To remove a song, simply delete it from the list.
 
 ## How to add photos:
-*Example: Adding a new picture called "Steve Music" to the Gallery page.
+*Example: Adding a new picture called "Steve Music" to the Gallery page.*
 
 #### Upload Photo
 1) Save the image to your computer using a title such as "steve-music.jpg".
@@ -92,5 +92,4 @@ I've left a fifth row with two empty Video components. You can paste your YouTub
   <p align="center">
     <img src="./instructions/add-video.png" alt="Add video" />
   </p>
-  
-
+ 
