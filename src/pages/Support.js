@@ -27,6 +27,7 @@ class TipJar extends Component {
             <Photo image={tipJarImg} style={photoStyle} />
           </div>
         </div>
+        <div className="spacer"></div>
       </div>
     );
   }
