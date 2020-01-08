@@ -4,7 +4,7 @@ import "./video.css";
 class Video extends Component {
   render() {
     const { video } = this.props;
-    return (
+    return video && video !== "PUT YOUTUBE LINK HERE" ? (
       <iframe
         title="youtubePlayer"
         allowFullScreen
@@ -12,6 +12,8 @@ class Video extends Component {
         frameBorder="0"
         src={video}
       />
+    ) : (
+      <></>
     );
   }
 }
