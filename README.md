@@ -118,3 +118,4 @@ I've left a fifth row with two empty Video components. You can paste your YouTub
   </p>
 
 10) Click Commit Changes
+11) To delete an event, just remove it from the upcomingEvents or pastEvents array.
