@@ -15,7 +15,7 @@ It'll usually take 3-5 minutes for changes to show up on the website.
 5) Edit it
 6) Click Commit Changes at the bottom of the page
 
-## Add or Remove Songs from the Music Page:
+## Add or Remove Songs on the Music Page:
 *Example: Adding a new Hawaiian song called "Why, Kiki?" to the Music page. Song is hosted on SoundCloud.*
 
 Intro: You'll need the slug to the song on SoundCloud. Get this by opening the track in SoundCloud. The slug is the part at the end of the url, as shown here: "https://soundcloud.com/steve-yungen/[this-is-the-slug]". It'll be all lowercase and hyphenated. You'll see all the other examples of slugs in the songs.js file. 
@@ -93,7 +93,7 @@ I've left a fifth row with two empty Video components. You can paste your YouTub
     <img src="./instructions/add-video.png" alt="Add video" />
   </p>
 
-## How to Update Events:
+## Add or Remove an Event on the Events Page:
 
 #### Upload Event poster/image:
 1) Save the image to your computer using a title such as "new-event.jpg".
