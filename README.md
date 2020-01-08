@@ -85,11 +85,10 @@ If you want to replace a video, simply change the URL of the replaced video to t
   </p>
 
 #### Add a Video:
-As you'll see, I have the videos grouped into rows of two. That means there are eight videos (due to 2 * 4). It'd be nice to maintain an even number of videos, two per row, for display purposes. 
+As you'll see, I have the videos grouped into rows of two. That means there are eight videos (due to 2 * 4). If you end up adding more than two additional videos, just copy the code block shown below and paste it as the next row.  
 
 I've left a fifth row with two empty Video components. You can paste your YouTube /embed/ URLs between the quotation marks as indicated. Then, remove the <span>{/* and */}</span> from the line to uncomment it. 
 
   <p align="center">
     <img src="./instructions/add-video.png" alt="Add video" />
   </p>
- 
