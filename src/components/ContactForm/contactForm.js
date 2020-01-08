@@ -83,6 +83,9 @@ class ContactForm extends Component {
               onChange={this.handleInputChange}
             ></textarea>
           </div>
+          <div className="form-field small-text text-right">
+            * = required field
+          </div>
           <div className="form-field">
             <input
               className="btn btn-outline-dark contactSubmitBtn"
