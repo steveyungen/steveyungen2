@@ -92,3 +92,29 @@ I've left a fifth row with two empty Video components. You can paste your YouTub
   <p align="center">
     <img src="./instructions/add-video.png" alt="Add video" />
   </p>
+
+## How to Update Events:
+
+#### If Event has a poster, upload it:
+1) Save the image to your computer using a title such as "steve-music.jpg".
+2) Go to src -> images -> events
+3) Drag and drop image into folder
+4) Click Commit Changes
+
+#### If Event has a poster, import it:
+5) Go to src -> pages
+6) Open Events.js
+7) Click the Pencil icon in the top right corner (Edit this Page)
+8) Import the image using a title of your choice and copying the format already in place
+
+  <p align="center">
+    <img src="./instructions/import-event.png" alt="Import event" />
+  </p>
+
+9) Add the event to the upcomingEvents array
+
+  <p align="center">
+    <img src="./instructions/add-event.png" alt="Add event" />
+  </p>
+
+10) Click Commit Changes
