@@ -12,7 +12,7 @@ class Footer extends Component {
           <ScrollTop />
           <div className="copyright">
             <div>Home page cover photo taken by Karen Irmscher.</div>
-            <div>Website designed and built by <a href="https://curtisyungen.github.io/Portfolio/">Curtis Yungen</a>.</div>
+            <div>Website designed and built by <a href="https://curtisyungen.github.io/Portfolio/" target="_blank" rel="noopener noreferrer">Curtis Yungen</a>.</div>
             <br />
             <div>Copyright &copy; 2020 Steve Yungen. All rights reserved.</div>
           </div>
