@@ -150,30 +150,49 @@ class Music extends Component {
         </div>
 
         <div className="row row-style justify-content-center text-center ">
+         {hawaiian && hawaiian.length > 0 ? (
           <SongList
             listTitle={"Hawaiian"}
             list={hawaiian}
             selectedTitle={title}
             setTitle={this.setTitle}
           />
+        ) : (
+            <></>
+        )}
+
+        {covers && covers.length > 0 ? (
           <SongList
             listTitle={"Covers"}
             list={covers}
             selectedTitle={title}
             setTitle={this.setTitle}
           />
+                  ) : (
+            <></>
+        )}
+
+        {composed && composed.length > 0 ? (
           <SongList
             listTitle={"Compositions"}
             list={composed}
             selectedTitle={title}
             setTitle={this.setTitle}
           />
+                  ) : (
+            <></>
+        )}
+
+        {collabs && collabs.length > 0 ? (
           <SongList
             listTitle={"Collaborations"}
             list={collabs}
             selectedTitle={title}
             setTitle={this.setTitle}
           />
+                  ) : (
+            <></>
+        )}
         </div>
       </div>
     );
