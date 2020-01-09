@@ -20,3 +20,9 @@
   border-radius: 25px;
   color: black;
 }
+
+@media only screen and (max-width: 420px) {
+  .scrollTop {
+    right: 20px; 
+  }
+}
