@@ -38,6 +38,7 @@ class SongList extends Component {
 
     return <Logo image={svgImage} style={svgStyle} />;
   };
+
   render() {
     const { listTitle, list, selectedTitle } = this.props;
     return (
@@ -51,7 +52,15 @@ class SongList extends Component {
               list[song]}`}
           >
             <div onClick={this.props.setTitle.bind(this, list[song])}>
-              {song}
+              {song.indexOf("##") > -1 ? (
+                <span
+                  className={`newSong selected-${selectedTitle === list[song]}`}
+                >
+                  * NEW * {song.replace("##", "")}
+                </span>
+              ) : (
+                song
+              )}
             </div>
           </div>
         ))}
