@@ -150,7 +150,7 @@ class Music extends Component {
         </div>
 
         <div className="row row-style justify-content-center text-center ">
-         {hawaiian && hawaiian.length > 0 ? (
+         {Object.entries(hawaiian).length > 0 ? (
           <SongList
             listTitle={"Hawaiian"}
             list={hawaiian}
@@ -161,7 +161,7 @@ class Music extends Component {
             <></>
         )}
 
-        {covers && covers.length > 0 ? (
+        {Object.entries(covers).length > 0 ? (
           <SongList
             listTitle={"Covers"}
             list={covers}
@@ -172,7 +172,7 @@ class Music extends Component {
             <></>
         )}
 
-        {composed && composed.length > 0 ? (
+        {Object.entries(composed).length > 0 ? (
           <SongList
             listTitle={"Compositions"}
             list={composed}
@@ -183,7 +183,7 @@ class Music extends Component {
             <></>
         )}
 
-        {collabs && collabs.length > 0 ? (
+        {Object.entries(collabs).length > 0 ? (
           <SongList
             listTitle={"Collaborations"}
             list={collabs}
