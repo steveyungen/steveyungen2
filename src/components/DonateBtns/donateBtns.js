@@ -20,7 +20,7 @@ class DonateBtns extends Component {
         <form
           action="https://www.paypal.com/cgi-bin/webscr"
           method="post"
-          target="_top"
+          target="_blank"
         >
           <input type="hidden" name="cmd" value="_s-xclick" />
           <input type="hidden" name="hosted_button_id" value={PAYPAL_BIZ_ID} />
