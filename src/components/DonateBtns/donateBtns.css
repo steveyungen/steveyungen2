@@ -22,6 +22,15 @@
   text-decoration: none;
 }
 
+.donateBtns {
+  display: flex;
+  justify-content: center;
+}
+
+.donateBtns form {
+  width: 150px;
+}
+
 .db-footer {
   position: absolute;
   right: 50px;
