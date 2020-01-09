@@ -10,6 +10,12 @@ const photoStyle = {
 };
 
 class TipJar extends Component {
+  componentDidMount = () => {
+    if (window.location.protocol !== 'https:') {
+        window.location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+    }  
+  }
+    
   render() {
     return (
       <div className="container tipJar-container fadeIn-fast">
