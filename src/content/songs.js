@@ -31,6 +31,7 @@ export const composed = {
   "Sprayed By Skunk v. 3": "sprayed-by-skunk-3",
   "Sprayed By Skunk (Lap Steel)":
     "sprayed-by-skunk-acoustic-version-w-lap-steel",
+  "##Superhero": "superhero",
   "The Face is Familiar": "04-the-face-is-familiar",
   "The Nomads": "07-the-nomads",
   "The Rain v. 5": "the-rain-5"
