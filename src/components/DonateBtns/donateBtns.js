@@ -17,14 +17,22 @@ class DonateBtns extends Component {
         >
           Patreon
         </a>
-        <a
-          className="donateBtn payPalBtn btn btn-warning"
-          href={`https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=${PAYPAL_BIZ_ID}&currency_code=USD&source=url`}
-          target="_blank"
-          rel="noopener noreferrer"
+        <form
+          action="https://www.paypal.com/cgi-bin/webscr"
+          method="post"
+          target="_top"
         >
-          PayPal
-        </a>
+          <input type="hidden" name="cmd" value="_s-xclick" />
+          <input type="hidden" name="hosted_button_id" value={PAYPAL_BIZ_ID} />
+          <input
+            type="submit"
+            className="donateBtn payPalBtn btn btn-warning"
+            border="0"
+            name="submit"
+            title="PayPal - The safer, easier way to pay online!"
+            value="PayPal"
+          />
+        </form>
       </div>
     );
   }
