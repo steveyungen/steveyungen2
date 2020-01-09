@@ -35,6 +35,10 @@ class Music extends Component {
   }
 
   componentDidMount = () => {
+    if (window.location.protocol !== 'https:') {
+        window.location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+    }
+    
     window.addEventListener("resize", this.getScreenWidth.bind(this));
     window.addEventListener("scroll", this.toggleMobilizer.bind(this));
 
