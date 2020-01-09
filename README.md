@@ -25,6 +25,7 @@ Intro: You'll need the slug to the song on SoundCloud. Get this by opening the t
 3) Click the Pencil icon in the top right corner (Edit this Page)
 4) Add a new line to the object titled "hawaiian"
 5) Add the new song *exactly* in this format: "[TITLE]": "[SLUG]"
+5a) If you want to indicate that this a new song, add "##" in the title, as such: "##Superhero": "superhero",
 
   <p align="center">
     <img src="./instructions/add-song.png" alt="Add song" />
