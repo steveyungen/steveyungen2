@@ -8,7 +8,7 @@ import Thumb from "../images/logos/thumb.svg";
 import {
   DEFAULT_SONG,
   hawaiian,
-  composed,
+  originals,
   covers,
   collabs
 } from "../content/songs";
@@ -150,6 +150,18 @@ class Music extends Component {
         </div>
 
         <div className="row row-style justify-content-center text-center ">
+
+        {Object.entries(originals).length > 0 ? (
+          <SongList
+            listTitle={"Originals"}
+            list={originals}
+            selectedTitle={title}
+            setTitle={this.setTitle}
+          />
+        ) : (
+            <></>
+        )}
+
          {Object.entries(hawaiian).length > 0 ? (
           <SongList
             listTitle={"Hawaiian"}
@@ -165,17 +177,6 @@ class Music extends Component {
           <SongList
             listTitle={"Covers"}
             list={covers}
-            selectedTitle={title}
-            setTitle={this.setTitle}
-          />
-                  ) : (
-            <></>
-        )}
-
-        {Object.entries(composed).length > 0 ? (
-          <SongList
-            listTitle={"Compositions"}
-            list={composed}
             selectedTitle={title}
             setTitle={this.setTitle}
           />
