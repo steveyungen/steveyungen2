@@ -2,8 +2,6 @@ export const DEFAULT_SONG = "aloha-week-hula";
 
 export const hawaiian = {
   "Aloha Week Hula": "aloha-week-hula",
-  "Blue Hawaiian Moonlight": "blue-hawaiian-moonlight",
-  "Hanalei Moon": "hanalei-moon",
   "Hi'ilawe": "hiilawe",
   "Hula Breeze": "hula-breeze",
   Kainoa: "kainoa",
@@ -12,11 +10,10 @@ export const hawaiian = {
   Pohakuloa: "pohakuloa",
   Seabird: "seabird",
   Ulupalakua: "ulupalakua",
-  Waikiki: "waikiki",
   "White Sandy Beach": "white-sandy-beach-1"
 };
 
-export const composed = {
+export const originals = {
   "At The Beach": "at-the-beach",
   "At The Beach v. 2": "at-the-beach-1",
   "A Change of Heart": "a-change-of-heart-aug-2017",
@@ -42,15 +39,10 @@ export const covers = {
   "Between the Devil and the Deep Blue Sea":
     "between-the-devil-and-the-deep-blue-sea",
   "City of Stars": "city-of-stars-steve",
-  "I Fall to Pieces": "i-fall-to-pieces",
-  "Moonlight Lady": "moonlight-lady-final-5-30-16",
-  "Red Sails In the Sunset": "red-sails-in-the-sunset",
   "Slow Down": "slow-down",
   "Sunshine On My Shoulders": "sunshine-on-my-shoulders",
   "Sweet Child of Mine (Steel Guitar)": "sweet-child-of-mine-steel",
   "Thank You Girl": "thank-you-girl",
-  "The Warmth of the Sun": "the-warmth-of-the-sun",
-  "Travelin' Man": "travelin-man",
   "Will You Still Love Me Tomorrow (Dance Version)":
     "will-you-still-love-me-tomorrow-dance-version"
 };
