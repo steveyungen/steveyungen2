@@ -183,10 +183,8 @@ input:checked + .slider:before {
   .autoPlaySwitch {
     display: none; 
   }
-}
-
-@media only screen and (max-width: 420px) {
+  
   .songListRow {
-    margin-left: 15px !important; 
+    margin-left: -15px !important; 
   }
 }
