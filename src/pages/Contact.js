@@ -33,6 +33,7 @@ class Contact extends Component {
         <div className="contact">
           <div className="justify-content-center text-center contactTitle">
             <p className="title large-title">CONTACT STEVE</p>
+            <p className="lead">syungen@yahoo.com</p>
           </div>
 
           <ContactForm />
