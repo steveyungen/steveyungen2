@@ -25,7 +25,7 @@ class SongList extends Component {
       case "Covers":
         svgImage = GuitarSVG;
         break;
-      case "Compositions":
+      case "Originals":
         svgImage = MusicSVG;
         break;
       case "Collaborations":
