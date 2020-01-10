@@ -78,6 +78,10 @@
   display: inline-block;
 }
 
+.songListRow {
+  margin-left: 0px !important; 
+}
+
 /* SLIDER CSS */
 /* =========================================== */
 
@@ -178,5 +182,11 @@ input:checked + .slider:before {
 @media only screen and (max-width: 768px) {
   .autoPlaySwitch {
     display: none; 
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .songListRow {
+    margin-left: 15px !important; 
   }
 }
