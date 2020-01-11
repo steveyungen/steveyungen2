@@ -29,7 +29,6 @@ export const originals = {
   "Sprayed By Skunk (Lap Steel)":
     "sprayed-by-skunk-acoustic-version-w-lap-steel",
   "##Superhero": "superhero",
-  "The Face is Familiar": "04-the-face-is-familiar",
   "The Nomads": "07-the-nomads",
   "The Rain v. 5": "the-rain-5"
 };
