@@ -58,7 +58,7 @@ class Gallery extends Component {
         {/* VIDEO ROW 1 */}
         <div className="row video-row justify-content-center text-center">
           <div className="col-xs-8 col-md-6">
-            <Video video={"https://www.youtube.com/embed/xEYHfnU0Z9o?rel=0"} />
+            <Video video={"https://youtu.be/xqWWZ_L_Mp4"} />
           </div>
           <div className="col-xs-8 col-md-6">
             <Video video={"https://www.youtube.com/embed/tgwyTx6I6sY"} />
