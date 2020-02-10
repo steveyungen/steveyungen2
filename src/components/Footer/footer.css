@@ -20,3 +20,9 @@
 .footer-inner {
   padding: 40px 60px;
 }
+
+.hitCounter {
+  bottom: 15px;
+  left: 15px; 
+  position: absolute;
+}
