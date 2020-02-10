@@ -1,4 +1,5 @@
 # Steve Yungen Music
+***Created by Curtis Yungen, January 2020***<br />
 https://steveyungen.herokuapp.com
 
 Here are a few ways that you can update the text, photos, songs, and videos on the website. Just be careful not to delete or edit any of the other code outside of these areas or it could cause issues. 
