@@ -29,6 +29,18 @@ class App extends Component {
           <Route exact path="/support" component={Support} />
           <Route component={ErrorPage} />
         </Switch>
+      
+        <div className="hitCounter">
+          <a href="https://www.hitwebcounter.com" target="_blank">
+            <img 
+              src="https://hitwebcounter.com/counter/counter.php?page=7193407&style=0007&nbdigits=5&type=page&initCount=0" 
+              title="Free-Counter" 
+              Alt="hitwebcounter"   
+              border="0" 
+            />
+          </a>    
+        </div>    
+      
         <Footer />
       </Router>
     );
