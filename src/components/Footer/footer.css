@@ -22,7 +22,5 @@
 }
 
 .hitCounter {
-  bottom: 15px;
-  left: 15px; 
-  position: absolute;
+  margin-left: 5px;
 }
