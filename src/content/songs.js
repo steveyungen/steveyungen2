@@ -18,6 +18,7 @@ export const originals = {
   "At The Beach v. 2": "at-the-beach-1",
   "A Change of Heart": "a-change-of-heart-aug-2017",
   "Another Sunny Day": "03-another-sunny-day",
+  "##Bananas": "bananas",
   Domino: "domino-170",
   "Flying Harmonicas": "flying-harmonicas-1",
   "Got to Move Forward": "05-got-to-move-forward",
@@ -28,7 +29,7 @@ export const originals = {
   "Sprayed By Skunk v. 3": "sprayed-by-skunk-3",
   "Sprayed By Skunk (Lap Steel)":
     "sprayed-by-skunk-acoustic-version-w-lap-steel",
-  "##Superhero": "superhero",
+  "Superhero": "superhero",
   "The Nomads": "07-the-nomads",
   "The Rain v. 5": "the-rain-5"
 };
