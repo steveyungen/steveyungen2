@@ -58,7 +58,7 @@ class Gallery extends Component {
         {/* VIDEO ROW 1 */}
         <div className="row video-row justify-content-center text-center">
           <div className="col-xs-8 col-md-6">
-            <Video video={"https://www.youtube.com/embed/xqWWZ_L_Mp4"} />
+            <Video video={"https://www.youtube.com/embed/L3B5Ut5FGMA"} />
           </div>
           <div className="col-xs-8 col-md-6">
             <Video video={"https://www.youtube.com/embed/tgwyTx6I6sY"} />
@@ -81,7 +81,7 @@ class Gallery extends Component {
             <Video video={"https://www.youtube.com/embed/P4to7YpbM4k"} />
           </div>
           <div className="col-xs-8 col-md-6">
-            <Video video={"https://www.youtube.com/embed/pd9kunqRBQ8"} />
+            <Video video={"https://www.youtube.com/embed/xqWWZ_L_Mp4"} />
           </div>
         </div>
 
