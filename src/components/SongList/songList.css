@@ -7,6 +7,15 @@
   color: blue !important;
 }
 
+.song2020 {
+  color: red !important;
+  font-weight: 700;
+}
+
+.song2020:hover {
+  color: darkred !important;
+}
+
 .songList {
   font-family: "Roboto", "sans-serif";
   margin: 30px 0px;

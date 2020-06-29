@@ -10,7 +10,7 @@ export const hawaiian = {
   Pohakuloa: "pohakuloa",
   Seabird: "seabird",
   Ulupalakua: "ulupalakua",
-  "White Sandy Beach": "white-sandy-beach-1"
+  "White Sandy Beach": "white-sandy-beach-1",
 };
 
 export const originals = {
@@ -29,9 +29,9 @@ export const originals = {
   "Sprayed By Skunk v. 3": "sprayed-by-skunk-3",
   "Sprayed By Skunk (Lap Steel)":
     "sprayed-by-skunk-acoustic-version-w-lap-steel",
-  "##Superhero": "superhero-6-28-2020",
+  "???Superhero": "superhero-6-28-2020",
   "The Nomads": "07-the-nomads",
-  "The Rain v. 5": "the-rain-5"
+  "The Rain v. 5": "the-rain-5",
 };
 
 export const covers = {
@@ -44,9 +44,7 @@ export const covers = {
   "Sweet Child of Mine (Steel Guitar)": "sweet-child-of-mine-steel",
   "Thank You Girl": "thank-you-girl",
   "Will You Still Love Me Tomorrow (Dance Version)":
-    "will-you-still-love-me-tomorrow-dance-version"
+    "will-you-still-love-me-tomorrow-dance-version",
 };
 
-export const collabs = {
- 
-};
+export const collabs = {};

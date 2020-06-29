@@ -7,7 +7,7 @@ import MusicSVG from "../../images/logos/music.svg";
 import "./songList.css";
 
 const svgStyle = {
-  height: "50px"
+  height: "50px",
 };
 
 class SongList extends Component {
@@ -45,11 +45,12 @@ class SongList extends Component {
       <div className="col-xs-12 col-md-3 songList text-center">
         {this.getSVG()}
         <h4 className="title pb-2 pt-2">{listTitle.toUpperCase()}</h4>
-        {Object.keys(list).map(song => (
+        {Object.keys(list).map((song) => (
           <div
             key={song}
-            className={`row song description selected-${selectedTitle ===
-              list[song]}`}
+            className={`row song description selected-${
+              selectedTitle === list[song]
+            }`}
           >
             <div onClick={this.props.setTitle.bind(this, list[song])}>
               {song.indexOf("##") > -1 ? (
@@ -57,6 +58,14 @@ class SongList extends Component {
                   className={`newSong selected-${selectedTitle === list[song]}`}
                 >
                   * NEW * {song.replace("##", "")}
+                </span>
+              ) : song.indexOf("???") > -1 ? (
+                <span
+                  className={`song2020 selected-${
+                    selectedTitle === list[song]
+                  }`}
+                >
+                  * 2020 * {song.replace("???", "")}
                 </span>
               ) : (
                 song
