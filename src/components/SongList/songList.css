@@ -8,12 +8,12 @@
 }
 
 .song2020 {
-  color: red !important;
+  color: #007bff !important;
   font-weight: 700;
 }
 
 .song2020:hover {
-  color: darkred !important;
+  color: blue !important;
 }
 
 .songList {
