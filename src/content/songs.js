@@ -29,7 +29,7 @@ export const originals = {
   "Sprayed By Skunk v. 3": "sprayed-by-skunk-3",
   "Sprayed By Skunk (Lap Steel)":
     "sprayed-by-skunk-acoustic-version-w-lap-steel",
-  "Superhero": "superhero-6-28-2020",
+  "##Superhero": "superhero-6-28-2020",
   "The Nomads": "07-the-nomads",
   "The Rain v. 5": "the-rain-5"
 };
