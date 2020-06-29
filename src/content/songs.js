@@ -18,7 +18,7 @@ export const originals = {
   "At The Beach v. 2": "at-the-beach-1",
   "A Change of Heart": "a-change-of-heart-aug-2017",
   "Another Sunny Day": "03-another-sunny-day",
-  "##Bananas": "bananas",
+  "???Bananas": "bananas",
   Domino: "domino-170",
   "Flying Harmonicas": "flying-harmonicas-1",
   "Got to Move Forward": "05-got-to-move-forward",
