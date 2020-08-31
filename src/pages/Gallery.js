@@ -77,14 +77,14 @@ class Gallery extends Component {
         </div>
 
         {/* ROW 4 */}
-//         <div className="row video-row justify-content-center text-center">
-//           <div className="col-xs-8 col-md-6">
-//             <Video video={"https://www.youtube.com/embed/dFu8YgKDRJY"} />
-//           </div>
-//           <div className="col-xs-8 col-md-6">
-//             <Video video={"https://www.youtube.com/embed/vmlbEtXN-DQ"} />
-//           </div>
-//         </div>
+        <div className="row video-row justify-content-center text-center" style={{display: "none"}}>
+          <div className="col-xs-8 col-md-6">
+            <Video video={"https://www.youtube.com/embed/dFu8YgKDRJY"} />
+          </div>
+          <div className="col-xs-8 col-md-6">
+            <Video video={"https://www.youtube.com/embed/vmlbEtXN-DQ"} />
+          </div>
+        </div>
       </div>
     );
   }
