@@ -52,7 +52,7 @@ class Gallery extends Component {
             <Video video={"https://www.youtube.com/embed/726hKa5MnAg"} />
           </div>
           <div className="col-xs-8 col-md-6">
-            <Video video={"https://www.youtube.com/embed/P3s9dW91KB4"} />
+            <Video video={"https://www.youtube.com/embed/P4to7YpbM4k"} />
           </div>
         </div>
 
@@ -69,7 +69,7 @@ class Gallery extends Component {
         {/* ROW 3 */}
         <div className="row video-row justify-content-center text-center">
           <div className="col-xs-8 col-md-6">
-            <Video video={"https://www.youtube.com/embed/P4to7YpbM4k"} />
+            <Video video={"https://www.youtube.com/embed/P3s9dW91KB4"} />
           </div>
           <div className="col-xs-8 col-md-6">
             <Video video={"https://www.youtube.com/embed/pd9kunqRBQ8"} />
@@ -77,14 +77,14 @@ class Gallery extends Component {
         </div>
 
         {/* ROW 4 */}
-        <div className="row video-row justify-content-center text-center">
-          <div className="col-xs-8 col-md-6">
-            <Video video={"https://www.youtube.com/embed/dFu8YgKDRJY"} />
-          </div>
-          <div className="col-xs-8 col-md-6">
-            <Video video={"https://www.youtube.com/embed/vmlbEtXN-DQ"} />
-          </div>
-        </div>
+//         <div className="row video-row justify-content-center text-center">
+//           <div className="col-xs-8 col-md-6">
+//             <Video video={"https://www.youtube.com/embed/dFu8YgKDRJY"} />
+//           </div>
+//           <div className="col-xs-8 col-md-6">
+//             <Video video={"https://www.youtube.com/embed/vmlbEtXN-DQ"} />
+//           </div>
+//         </div>
       </div>
     );
   }
