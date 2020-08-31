@@ -11,18 +11,10 @@ const photoStyle = {
 };
 
 class Gallery extends Component {
-  componentDidMount = () => {
-    if (window.location.protocol !== 'https:') {
-        window.location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
-    }
-  }
-  
   render() {
     return (
       <div className="container gallery-container">
-      
         {/* PHOTOS */}
-      
         <div className="row row-style justify-content-center text-center">
           <p className="title large-title">PHOTOS</p>
           <p className="description">
@@ -48,54 +40,43 @@ class Gallery extends Component {
         </div>
 
         {/* VIDEOS */}
-
         <div className="row row-style justify-content-center text-center mt-5 mb-4">
           <div className="spacer" />
           <p className="title large-title">VIDEOS</p>
           <div className="spacer" />
         </div>
 
-        {/* VIDEO ROW 0 */}
+        {/* ROW 1 */}
         <div className="row video-row justify-content-center text-center">
           <div className="col-xs-8 col-md-6">
-            <Video video={"https://www.youtube.com/embed/AN5AX8W76Xc"} />
+            <Video video={"https://www.youtube.com/embed/726hKa5MnAg"} />
           </div>
-          <div className="col-xs-8 col-md-6">
-            <Video video={"https://www.youtube.com/embed/haunLNM91mo"} />
-          </div>
-        </div>
-
-        {/* VIDEO ROW 1 */}
-        <div className="row video-row justify-content-center text-center">
-          <div className="col-xs-8 col-md-6">
-            <Video video={"https://www.youtube.com/embed/j2qFG1hKkY0"} />
-          </div>
-          <div className="col-xs-8 col-md-6">
-            <Video video={"https://www.youtube.com/embed/L3B5Ut5FGMA"} />
-          </div>
-        </div>
-
-        {/* VIDEO ROW 2 */}
-        <div className="row video-row justify-content-center text-center">
           <div className="col-xs-8 col-md-6">
             <Video video={"https://www.youtube.com/embed/P3s9dW91KB4"} />
           </div>
-          <div className="col-xs-8 col-md-6">
-            <Video video={"https://www.youtube.com/embed/ekyh20VfSoY"} />
-          </div>
         </div>
 
-        {/* VIDEO ROW 3 */}
+        {/* ROW 2 */}
         <div className="row video-row justify-content-center text-center">
+          <div className="col-xs-8 col-md-6">
+            <Video video={"https://www.youtube.com/embed/xEYHfnU0Z9o?rel=0"} />
+          </div>
           <div className="col-xs-8 col-md-6">
             <Video video={"https://www.youtube.com/embed/tgwyTx6I6sY"} />
           </div>
+        </div>
+        
+        {/* ROW 3 */}
+        <div className="row video-row justify-content-center text-center">
           <div className="col-xs-8 col-md-6">
-            <Video video={"https://www.youtube.com/embed/xqWWZ_L_Mp4"} />
+            <Video video={"https://www.youtube.com/embed/P4to7YpbM4k"} />
+          </div>
+          <div className="col-xs-8 col-md-6">
+            <Video video={"https://www.youtube.com/embed/pd9kunqRBQ8"} />
           </div>
         </div>
 
-        {/* VIDEO ROW 4 */}
+        {/* ROW 4 */}
         <div className="row video-row justify-content-center text-center">
           <div className="col-xs-8 col-md-6">
             <Video video={"https://www.youtube.com/embed/dFu8YgKDRJY"} />
@@ -104,18 +85,6 @@ class Gallery extends Component {
             <Video video={"https://www.youtube.com/embed/vmlbEtXN-DQ"} />
           </div>
         </div>
-
-        {/* VIDEO ROW 5 */}
-        <div className="row video-row justify-content-center text-center">
-          <div className="col-xs-8 col-md-6">
-            <Video video={"PUT YOUTUBE LINK HERE"} />
-          </div>
-          <div className="col-xs-8 col-md-6">
-            <Video video={"PUT YOUTUBE LINK HERE"} />
-          </div>
-        </div>
-
-        {/* END OF VIDEO RORWS */}
       </div>
     );
   }
