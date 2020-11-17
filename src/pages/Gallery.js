@@ -45,6 +45,15 @@ class Gallery extends Component {
           <p className="title large-title">VIDEOS</p>
           <div className="spacer" />
         </div>
+        {/* ROW 0 */}
+        <div className="row video-row justify-content-center text-center">
+          <div className="col-xs-8 col-md-6">
+            <Video video={"https://www.youtube.com/embed/JOpgu_3O0WM"} />
+          </div>
+          <div className="col-xs-8 col-md-6">
+            <Video video={"https://www.youtube.com/embed/8hw0KlIWbKk"} />
+          </div>
+        </div>
 
         {/* ROW 1 */}
         <div className="row video-row justify-content-center text-center">
