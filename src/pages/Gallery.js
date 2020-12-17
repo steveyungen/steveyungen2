@@ -71,7 +71,7 @@ class Gallery extends Component {
             <Video video={"https://www.youtube.com/embed/xEYHfnU0Z9o?rel=0"} />
           </div>
           <div className="col-xs-8 col-md-6">
-            <Video video={"https://www.youtube.com/embed/tgwyTx6I6sY"} />
+            <Video video={"https://www.youtube.com/embed/AN5AX8W76Xc"} />
           </div>
         </div>
         
