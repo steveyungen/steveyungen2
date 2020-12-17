@@ -45,7 +45,7 @@ class Gallery extends Component {
           <p className="title large-title">VIDEOS</p>
           <div className="spacer" />
         </div>
-        {/* ROW 0 */}
+        {/* ROW 1 */}
         <div className="row video-row justify-content-center text-center">
           <div className="col-xs-8 col-md-6">
             <Video video={"https://www.youtube.com/embed/JOpgu_3O0WM"} />
@@ -55,27 +55,27 @@ class Gallery extends Component {
           </div>
         </div>
 
-        {/* ROW 1 */}
+        {/* ROW 2 */}
         <div className="row video-row justify-content-center text-center">
           <div className="col-xs-8 col-md-6">
             <Video video={"https://www.youtube.com/embed/726hKa5MnAg"} />
           </div>
           <div className="col-xs-8 col-md-6">
-            <Video video={"https://www.youtube.com/embed/P4to7YpbM4k"} />
+            <Video video={"https://www.youtube.com/embed/AN5AX8W76Xc"} />
           </div>
         </div>
 
-        {/* ROW 2 */}
+        {/* ROW 3 */}
         <div className="row video-row justify-content-center text-center">
           <div className="col-xs-8 col-md-6">
             <Video video={"https://www.youtube.com/embed/xEYHfnU0Z9o?rel=0"} />
           </div>
           <div className="col-xs-8 col-md-6">
-            <Video video={"https://www.youtube.com/embed/AN5AX8W76Xc"} />
+            <Video video={"https://www.youtube.com/embed/tgwyTx6I6sY"} />
           </div>
         </div>
         
-        {/* ROW 3 */}
+        {/* ROW 4 */}
         <div className="row video-row justify-content-center text-center">
           <div className="col-xs-8 col-md-6">
             <Video video={"https://www.youtube.com/embed/ekyh20VfSoY"} />
@@ -85,7 +85,7 @@ class Gallery extends Component {
           </div>
         </div>
 
-        {/* ROW 4 */}
+        {/* ROW 5 */}
         <div className="row video-row justify-content-center text-center" style={{display: "none"}}>
           <div className="col-xs-8 col-md-6">
             <Video video={"https://www.youtube.com/embed/dFu8YgKDRJY"} />
