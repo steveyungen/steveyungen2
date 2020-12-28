@@ -4,7 +4,7 @@ import Video from "../components/Video/video";
 class Videos extends Component {
   render() {
     return (
-      <div className="container videos-container">
+      <div className="container videos-container mb-5">
         {/* VIDEOS */}
         <div className="row row-style justify-content-center text-center mt-5 mb-4">
           <div className="spacer" />
