@@ -11,6 +11,12 @@ class Videos extends Component {
           <p className="title large-title">VIDEOS</p>
           <div className="spacer" />
         </div>
+        {/* FEATURED */}
+        <div className="row video-row justify-content-center text-center">
+          <div className="col-xs-8 col-md-6">
+            <Video video={"https://www.youtube.com/embed/8W0qs8pDu64"} />
+          </div>
+        </div>
         {/* ROW 1 */}
         <div className="row video-row justify-content-center text-center">
           <div className="col-xs-8 col-md-6">
