@@ -17,7 +17,7 @@ class Gallery extends Component {
         <div className="row row-style justify-content-center text-center">
           <p className="title large-title">PHOTOS</p>
           <p className="description">
-            The pictures and videos in this gallery are from different musical
+            The pictures in this gallery are from different musical
             periods in my life. They’ve all had their fun times!
           </p>
           <div className="spacer" />
