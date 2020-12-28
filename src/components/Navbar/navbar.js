@@ -45,8 +45,13 @@ class Navbar extends Component {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/gallery">
-                  PHOTOS/VIDEOS
+                <a className="nav-link" href="/photos">
+                  PHOTOS
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/videos">
+                  VIDEOS
                 </a>
               </li>
               <li className="nav-item">

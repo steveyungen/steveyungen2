@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/navbar";
 import Home from "./pages/Home";
 import Music from "./pages/Music";
 import Gallery from "./pages/Gallery";
+import Videos from "./pages/Videos";
 import Events from "./pages/Events";
 import Contact from "./pages/Contact";
 import Support from "./pages/Support";
@@ -23,7 +24,8 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />
           <Route exact path="/music" component={Music} />
-          <Route exact path="/gallery" component={Gallery} />
+          <Route exact path="/photos" component={Gallery} />
+          <Route exact path="/videos" component={Videos} />
           <Route exact path="/events" component={Events} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/support" component={Support} />
