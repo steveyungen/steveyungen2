@@ -20,8 +20,8 @@ export const originals = {
   "In This Light You Look Like a Friend of Mine":
     "in-this-light-you-look-like-a-friend-of-mine",
   "Sprayed By Skunk v. 3": "sprayed-by-skunk-3",
-  "???Sunflower": "sunflower",
-  "???Superhero": "superhero-6-28-2020",
+  "Sunflower": "sunflower",
+  "Superhero": "superhero-6-28-2020",
 };
 
 export const covers = {
