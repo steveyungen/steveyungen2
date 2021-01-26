@@ -93,10 +93,10 @@ class Home extends Component {
           {/* Gallery */}
           <div className="col-sm-12 col-md-4">
             <Photo
-              link={"/gallery"}
+              link={"/videos"}
               image={GalleryImage}
               style={photoStyle}
-              title={"GALLERY"}
+              title={"VIDEOS"}
               description={"About Steve and his music."}
             />
           </div>
