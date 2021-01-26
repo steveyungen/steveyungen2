@@ -97,7 +97,7 @@ class Home extends Component {
               image={GalleryImage}
               style={photoStyle}
               title={"VIDEOS"}
-              description={"About Steve and his music."}
+              description={"Videos of Steve's performances."}
             />
           </div>
           <div className="col-sm-12 spacer" />
