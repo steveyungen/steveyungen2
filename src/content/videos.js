@@ -8,7 +8,7 @@ const VIDEO = {
     VIDEO_7: "https://www.youtube.com/embed/xEYHfnU0Z9o",
     VIDEO_8: "https://www.youtube.com/embed/tgwyTx6I6sY",
     VIDEO_9: "https://www.youtube.com/embed/ekyh20VfSoY",
-    VIDEO_10: "https://www.youtube.com/embed/pd9kunqRBQ8",
+    VIDEO_10: "https://www.youtube.com/embed/2Jswsa9RwjE",
     VIDEO_11: "https://www.youtube.com/embed/dFu8YgKDRJY",
     VIDEO_12: "https://www.youtube.com/embed/vmlbEtXN-DQ",
 }
