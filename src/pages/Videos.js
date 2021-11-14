@@ -60,16 +60,6 @@ class Videos extends Component {
             <Video video={VIDEO.VIDEO_10} />
           </div>
         </div>
-
-        {/* ROW 6 */}
-        <div className="row video-row justify-content-center text-center" style={{display: "none"}}>
-          <div className="col-xs-8 col-md-6">
-            <Video video={VIDEO.VIDEO_11} />
-          </div>
-          <div className="col-xs-8 col-md-6">
-            <Video video={VIDEO.VIDEO_12} />
-          </div>
-        </div>
       </div>
     );
   }
