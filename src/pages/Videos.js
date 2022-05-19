@@ -14,52 +14,43 @@ class Videos extends Component {
 
                 <div className="row video-row justify-content-center text-center">
                     <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.VIDEO_11} />
+                        <Video video={VIDEO.FARMERS_MARKET_MAY_2022} />
                     </div>
                 </div>
 
                 <div className="row video-row justify-content-center text-center">
                     <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.VIDEO_1} />
+                        <Video video={VIDEO.UKULELE_JIMMY} />
                     </div>
                     <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.VIDEO_2} />
-                    </div>
-                </div>
-
-                <div className="row video-row justify-content-center text-center">
-                    <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.VIDEO_3} />
-                    </div>
-                    <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.VIDEO_4} />
+                        <Video video={VIDEO.SUNNY_DAY_SUPERHERO} />
                     </div>
                 </div>
 
                 <div className="row video-row justify-content-center text-center">
                     <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.VIDEO_5} />
+                        <Video video={VIDEO.OCT_10_2021} />
                     </div>
                     <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.VIDEO_6} />
-                    </div>
-                </div>
-
-                <div className="row video-row justify-content-center text-center">
-                    <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.VIDEO_7} />
-                    </div>
-                    <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.VIDEO_8} />
+                        <Video video={VIDEO.NPR_TINY_DESK_2021} />
                     </div>
                 </div>
 
                 <div className="row video-row justify-content-center text-center">
                     <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.VIDEO_9} />
+                        <Video video={VIDEO.BANANAS_THE_MOVIE} />
                     </div>
                     <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.VIDEO_10} />
+                        <Video video={VIDEO.HALLOWEEN_SONG} />
+                    </div>
+                </div>
+
+                <div className="row video-row justify-content-center text-center">
+                    <div className="col-xs-8 col-md-6">
+                        <Video video={VIDEO.SUNFLOWER} />
+                    </div>
+                    <div className="col-xs-8 col-md-6">
+                        <Video video={VIDEO.STEVE_JOSEPH_CURTIS_2019} />
                     </div>
                 </div>
             </div>

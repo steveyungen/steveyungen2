@@ -18,111 +18,112 @@ import SteveUkulele from "../images/steve/steve-ukulele.jpg";
 import Windmill from "../images/steve/steve-windmill.jpg";
 
 export const galleryImages = {
-  zeroAndSlicks: {
-    image: ZeroAndSlicks,
-    title: "Zero and the Slicks",
-    description: "1973"
-  },
+    zeroAndSlicks: {
+        image: ZeroAndSlicks,
+        title: "Zero and the Slicks",
+        description: "1973",
+    },
 
-  genericBand1: {
-    image: GenericBand1,
-    title: "The Generic Band",
-    description: "Nyssa, OR, 1985"
-  },
+    genericBand1: {
+        image: GenericBand1,
+        title: "The Generic Band",
+        description: "Nyssa, OR, 1985",
+    },
 
-  genericBand2: {
-    image: GenericBand2,
-    title: "The Generic Band",
-    description: "Nyssa, OR, 1986"
-  },
+    genericBand2: {
+        image: GenericBand2,
+        title: "The Generic Band",
+        description: "Nyssa, OR, 1986",
+    },
 
-  genericBand3: {
-    image: GenericBand3,
-    title: "The Generic Band",
-    description: ""
-  },
+    genericBand3: {
+        image: GenericBand3,
+        title: "The Generic Band",
+        description: "",
+    },
 
-  leiAloha: {
-    image: LeiAloha,
-    title: "The Lei Aloha Serenaders, 2009",
-    description: "Left to Right: Pili Moreno, Kumu Pekelo Day, Steve Yungen"
-  },
+    leiAloha: {
+        image: LeiAloha,
+        title: "The Lei Aloha Serenaders, 2009",
+        description:
+            "Left to Right: Pili Moreno, Kumu Pekelo Day, Steve Yungen",
+    },
 
-  turksSteve: {
-    image: TurksSteve,
-    title: "Turks Caicos",
-    description: "2017"
-  },
+    turksSteve: {
+        image: TurksSteve,
+        title: "Turks Caicos",
+        description: "2017",
+    },
 
-  grandSteve: {
-    image: GrandSteve,
-    title: "Steve Next to a Large Pit",
-    description: "March 2017"
-  },
+    grandSteve: {
+        image: GrandSteve,
+        title: "Steve Next to a Large Pit",
+        description: "March 2017",
+    },
 
-  steveUkulele: {
-    image: SteveUkulele,
-    title: "Steve Warming Up Pre-Show",
-    description: "2018"
-  },
+    steveUkulele: {
+        image: SteveUkulele,
+        title: "Steve Warming Up Pre-Show",
+        description: "2018",
+    },
 
-  steveGreg: {
-    image: SteveGreg,
-    title: "Steve and Greg",
-    description: ""
-  },
+    steveGreg: {
+        image: SteveGreg,
+        title: "Steve and Greg",
+        description: "",
+    },
 
-  route66: {
-    image: Route66,
-    title: "Route 66",
-    description: "Album cover material?"
-  },
+    route66: {
+        image: Route66,
+        title: "Route 66",
+        description: "Album cover material?",
+    },
 
-  steveGuitars: {
-    image: SteveGuitars,
-    title: "Steve's Taylors",
-    description: ""
-  },
+    steveGuitars: {
+        image: SteveGuitars,
+        title: "Steve's Taylors",
+        description: "",
+    },
 
-  stevePili: {
-    image: StevePili,
-    title: "Steve and Pili",
-    description: ""
-  },
+    stevePili: {
+        image: StevePili,
+        title: "Steve and Pili",
+        description: "",
+    },
 
-  steveSOSAChild: {
-    image: SteveSOSAChild,
-    title: "Jacksonville Farmer's Market",
-    description: "Southern Oregon Songwriters, 2019"
-  },
+    steveSOSAChild: {
+        image: SteveSOSAChild,
+        title: "Jacksonville Farmer's Market",
+        description: "Southern Oregon Songwriters, 2019",
+    },
 
-  steveCurtis: {
-    image: SteveCurtis,
-    title: "Steve and Curtis",
-    description: "Jacksonville Farmer's Market, 2019"
-  },
+    steveCurtis: {
+        image: SteveCurtis,
+        title: "Steve and Curtis",
+        description: "Jacksonville Farmer's Market, 2019",
+    },
 
-  lapSteve: {
-    image: LapSteve,
-    title: "Steve with Lap Steel",
-    description: "Florence, OR, 2015"
-  },
+    lapSteve: {
+        image: LapSteve,
+        title: "Steve with Lap Steel",
+        description: "Florence, OR, 2015",
+    },
 
-  steve1986: {
-    image: Steve1986,
-    title: "Steve Shredding",
-    description: "1986"
-  },
+    steve1986: {
+        image: Steve1986,
+        title: "Steve Shredding",
+        description: "1986",
+    },
 
-  steveTaylors2: {
-    image: SteveTaylors2,
-    title: "Steve's Taylors",
-    description: ""
-  },
+    steveTaylors2: {
+        image: SteveTaylors2,
+        title: "Steve's Taylors",
+        description: "",
+    },
 
-  windmill: {
-    image: Windmill,
-    title: "(Windmilling) at the beach",
-    description: "Oregon coast"
-  }
+    windmill: {
+        image: Windmill,
+        title: "(Windmilling) at the beach",
+        description: "Oregon coast",
+    },
 };
