@@ -12,29 +12,29 @@ import ErrorPage from "./pages/ErrorPage";
 import Footer from "./components/Footer/footer";
 
 class App extends Component {
-  getAdminKey = () => {
-    return prompt("Admin key: ") === "111";
-  };
+    getAdminKey = () => {
+        return prompt("Admin key: ") === "111";
+    };
 
-  render() {
-    return (
-      <Router>
-        <Navbar />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/home" component={Home} />
-          <Route exact path="/music" component={Music} />
-          <Route exact path="/photos" component={Gallery} />
-          <Route exact path="/videos" component={Videos} />
-          <Route exact path="/events" component={Events} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/support" component={Support} />
-          <Route component={ErrorPage} />
-        </Switch>
-        <Footer />
-      </Router>
-    );
-  }
+    render() {
+        return (
+            <Router>
+                <Navbar />
+                <Switch>
+                    <Route exact path="/" component={Home} />
+                    <Route exact path="/home" component={Home} />
+                    <Route exact path="/music" component={Music} />
+                    <Route exact path="/photos" component={Gallery} />
+                    <Route exact path="/videos" component={Videos} />
+                    <Route exact path="/events" component={Events} />
+                    <Route exact path="/contact" component={Contact} />
+                    <Route exact path="/support" component={Support} />
+                    <Route component={ErrorPage} />
+                </Switch>
+                <Footer />
+            </Router>
+        );
+    }
 }
 
 export default App;
