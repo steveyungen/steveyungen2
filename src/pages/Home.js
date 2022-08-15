@@ -32,9 +32,9 @@ const clevelandStyle = {
 
 class Home extends Component {
   componentDidMount = () => {
-    // if (window.location.protocol !== 'https:') {
-    //     window.location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
-    // }
+    if (window.location.protocol !== 'https:') {
+        window.location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+    }
   };
 
   render() {
