@@ -14,25 +14,19 @@ class Videos extends Component {
 
                 <div className="row video-row justify-content-center text-center">
                     <div className="col-xs-8 col-md-6">
+                        <Video video={VIDEO.AUG_14_2022} />
+                    </div>
+                    <div className="col-xs-8 col-md-6">
+                        <Video video={VIDEO.STEVE_JOSEPH_CURTIS_2022} />
+                    </div>
+                </div>
+
+                <div className="row video-row justify-content-center text-center">
+                    <div className="col-xs-8 col-md-6">
                         <Video video={VIDEO.FARMERS_MARKET_MAY_2022} />
                     </div>
-                </div>
-
-                <div className="row video-row justify-content-center text-center">
                     <div className="col-xs-8 col-md-6">
                         <Video video={VIDEO.UKULELE_JIMMY} />
-                    </div>
-                    <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.SUNNY_DAY_SUPERHERO} />
-                    </div>
-                </div>
-
-                <div className="row video-row justify-content-center text-center">
-                    <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.OCT_10_2021} />
-                    </div>
-                    <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.NPR_TINY_DESK_2021} />
                     </div>
                 </div>
 
@@ -41,16 +35,16 @@ class Videos extends Component {
                         <Video video={VIDEO.BANANAS_THE_MOVIE} />
                     </div>
                     <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.HALLOWEEN_SONG} />
+                        <Video video={VIDEO.OCT_10_2021} />
                     </div>
                 </div>
 
                 <div className="row video-row justify-content-center text-center">
                     <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.SUNFLOWER} />
+                        <Video video={VIDEO.STEVE_JOSEPH_CURTIS_2019} />
                     </div>
                     <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.STEVE_JOSEPH_CURTIS_2019} />
+                        <Video video={VIDEO.HALLOWEEN_SONG} />
                     </div>
                 </div>
             </div>
