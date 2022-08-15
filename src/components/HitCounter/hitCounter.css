@@ -1,0 +1,6 @@
+.hitCounter {
+    left: 5px;
+    margin-top: 15px;
+    position: absolute;
+    z-index: 999;
+}
