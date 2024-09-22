@@ -14,19 +14,19 @@ class Videos extends Component {
 
                 <div className="row video-row justify-content-center text-center">
                     <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.AUG_14_2022} />
+                        <Video video={VIDEO.HONEYBEE} />
                     </div>
                     <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.STEVE_JOSEPH_CURTIS_2022} />
+                        <Video video={VIDEO.BOMBAY_BEACH} />
                     </div>
                 </div>
 
                 <div className="row video-row justify-content-center text-center">
                     <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.FARMERS_MARKET_MAY_2022} />
+                        <Video video={VIDEO.AT_THE_BEACH_SEPT_2024} />
                     </div>
-                    <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.UKULELE_JIMMY} />
+                   <div className="col-xs-8 col-md-6">
+                        <Video video={VIDEO.STEVE_JOSEPH_CURTIS_2022} />
                     </div>
                 </div>
 
@@ -35,7 +35,7 @@ class Videos extends Component {
                         <Video video={VIDEO.BANANAS_THE_MOVIE} />
                     </div>
                     <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.OCT_10_2021} />
+                        <Video video={VIDEO.UKULELE_JIMMY} />
                     </div>
                 </div>
 
