@@ -22,7 +22,7 @@ export const originals = {
     "Sprayed By Skunk v. 3": "sprayed-by-skunk-3",
     Sunflower: "sunflower",
     Superhero: "superhero-6-28-2020",
-    "##We Share the Same Sky": "we-share-the-same-sky-1",
+    "We Share the Same Sky": "we-share-the-same-sky-1",
 };
 
 export const covers = {
