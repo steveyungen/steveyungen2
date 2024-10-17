@@ -2,6 +2,18 @@ import React, { Component } from "react";
 import Video from "../components/Video/video";
 import VIDEO from "../content/videos";
 
+const VIDEOS = [
+    VIDEO.WE_SHARE_THE_SAME_SKY,
+    VIDEO.HONEYBEE,
+    VIDEO.BOMBAY_BEACH,
+    VIDEO.AT_THE_BEACH_SEPT_2024,
+    VIDEO.STEVE_JOSEPH_CURTIS_2022,
+    VIDEO.BANANAS_THE_MOVIE,
+    VIDEO.UKULELE_JIMMY,
+    VIDEO.STEVE_JOSEPH_CURTIS_2019,
+    VIDEO.HALLOWEEN_SONG,
+];
+
 class Videos extends Component {
     render() {
         return (
@@ -12,41 +24,23 @@ class Videos extends Component {
                     <div className="spacer" />
                 </div>
 
-                <div className="row video-row justify-content-center text-center">
-                    <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.HONEYBEE} />
-                    </div>
-                    <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.BOMBAY_BEACH} />
-                    </div>
-                </div>
-
-                <div className="row video-row justify-content-center text-center">
-                    <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.AT_THE_BEACH_SEPT_2024} />
-                    </div>
-                   <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.STEVE_JOSEPH_CURTIS_2022} />
-                    </div>
-                </div>
-
-                <div className="row video-row justify-content-center text-center">
-                    <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.BANANAS_THE_MOVIE} />
-                    </div>
-                    <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.UKULELE_JIMMY} />
-                    </div>
-                </div>
-
-                <div className="row video-row justify-content-center text-center">
-                    <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.STEVE_JOSEPH_CURTIS_2019} />
-                    </div>
-                    <div className="col-xs-8 col-md-6">
-                        <Video video={VIDEO.HALLOWEEN_SONG} />
-                    </div>
-                </div>
+                {VIDEOS.map((_, idx) =>
+                    idx % 2 === 0 ? (
+                        <div
+                            key={idx}
+                            className="row video-row justify-content-center text-center"
+                        >
+                            <div className="col-xs-8 col-md-6">
+                                <Video video={VIDEOS[idx]} />
+                            </div>
+                            {VIDEOS[idx + 1] && (
+                                <div className="col-xs-8 col-md-6">
+                                    <Video video={VIDEOS[idx + 1]} />
+                                </div>
+                            )}
+                        </div>
+                    ) : null
+                )}
             </div>
         );
     }
